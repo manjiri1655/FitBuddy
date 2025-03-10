@@ -1,8 +1,9 @@
+import Introduction from "./pages/Introduction";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Introduction";
 import Diet from "./pages/Diet";
 import Workout from "./pages/Workout";
 import Schedule from "./pages/Schedule";
@@ -13,6 +14,7 @@ import Profile from "./pages/Profile";
 function App() {
 	return (
 		<Routes>
+			<Route path="/" element={<Introduction />} />
 			<Route path="/" element={<SignUp />} />
 			<Route path="/home" element={<Home />} />
 			<Route path="/diet" element={<Diet />} />
