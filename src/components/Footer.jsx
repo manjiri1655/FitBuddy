@@ -1,10 +1,10 @@
 const Footer = () => {
 	return (
 		<div className="footer">
-			<ul>Home</ul>
-            <ul>Diet</ul>
-            <ul>Workout</ul>
-            <ul>Schedule</ul>
+			<ul className="icon">Home</ul>
+			<ul className="icon">Diet</ul>
+			<ul className="icon">Workout</ul>
+			<ul className="icon">Schedule</ul>
 		</div>
 	);
 };
