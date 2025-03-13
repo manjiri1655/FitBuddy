@@ -5,7 +5,7 @@ const Introduction = () => {
 		<div className="Introduction">
 			<div className="name">
 				<h2 className="Intro_h2"> WELCOME TO </h2>
-				<h1 className="Intro_h1">FITNESS BUDDY</h1>
+				<h1 className="Intro_h1">FIT BUDDY</h1>
 			</div>
 			<div className="account">
 				<p>Ready to sign up ?</p>

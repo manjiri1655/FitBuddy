@@ -2,7 +2,7 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Introduction";
+import Home from "./pages/Home";
 import Diet from "./pages/Diet";
 import Data from "./pages/Data";
 import Workout from "./pages/Workout";
@@ -13,7 +13,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Profile from "./pages/Profile";
 import Introduction from "./pages/Introduction";
 import Footer from "./components/Footer";
-
+import Header from "./components/Header";
 function App() {
 	return (
 		<>
@@ -30,8 +30,11 @@ function App() {
 				<Route path="/schedule" element={<Schedule />} />
 				<Route path="/profile" element={<Profile />} />
 				<Route path="/*" element={<PageNotFound />} />
+				<Route path="/temp" element={<></>}/>
 			</Routes>
+			<Header />
 			<Footer />
+
 		</>
 	);
 }
